@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Royal Mail Shipping Label & Tracking - Mobile View</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            margin: 0;
+            padding: 10px;
+            background-color: #f5f5f5;
+        }
+        .page {
+            max-width: 100%;
+            margin: 0 auto;
+        }
+        .label-container {
+            width: 100%;
+            min-height: 500px;
+            margin-bottom: 30px;
+            border: 2px solid #000;
+            background-color: white;
+            padding: 15px;
+            box-sizing: border-box;
+            position: relative;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+        }
+        .royal-mail-logo {
+            font-size: 24px;
+            font-weight: bold;
+            color: #d40000;
+            text-align: center;
+            margin-bottom: 10px;
+        }
+        .service-type {
+            font-size: 18px;
+            font-weight: bold;
+            color: #d40000;
+            text-align: center;
+            margin-bottom: 15px;
+        }
+        .dates {
+            font-size: 14px;
+            text-align: center;
+            margin-bottom: 15px;
+        }
+        .sender, .recipient {
+            font-size: 16px;
+            margin-bottom: 20px;
+            padding: 10px;
+            background-color: #f9f9f9;
+            border-radius: 8px;
+        }
+        .sender strong, .recipient strong {
+            font-size: 18px;
+        }
+        .tracking-barcode {
+            text-align: center;
+            margin: 20px 0;
+        }
+        .tracking-barcode img {
+            width: 90%;
+            max-width: 400px;
+            height: auto;
+        }
+        .tracking-number-big {
+            font-size: 24px;
+            font-weight: bold;
+            letter-spacing: 3px;
+            margin-top: 10px;
+            padding: 10px;
+            background-color: #f0f0f0;
+            border-radius: 8px;
+        }
+        .customs-info {
+            font-size: 13px;
+            padding: 12px;
+            border: 1px solid #000;
+            border-radius: 8px;
+            margin-top: 20px;
+            background-color: #fffff0;
+        }
+        .tracking-section {
+            background-color: white;
+            padding: 20px;
+            border: 2px solid #000;
+            border-radius: 8px;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+        }
+        .tracking-header {
+            font-size: 22px;
+            font-weight: bold;
+            color: #d40000;
+            text-align: center;
+            margin-bottom: 15px;
+        }
+        .tracking-number-display {
+            font-size: 26px;
+            font-weight: bold;
+            letter-spacing: 3px;
+            background-color: #f0f0f0;
+            padding: 15px;
+            text-align: center;
+            margin: 20px 0;
+            border: 1px dashed #000;
+            border-radius: 8px;
+            word-break: break-all;
+        }
+        .status-current {
+            font-size: 26px;
+            font-weight: bold;
+            color: #006400;
+            text-align: center;
+            margin: 20px 0;
+        }
+        .dates-info {
+            font-size: 17px;
+            line-height: 1.6;
+            margin: 20px 0;
+        }
+        .note {
+            font-size: 14px;
+            text-align: center;
+            margin-top: 30px;
+            color: #555;
+        }
+    </style>
+</head>
+<body>
+    <div class="page">
+        <!-- Shipping Label - Mobile Optimized -->
+        <div class="label-container">
+            <div class="royal-mail-logo">ROYAL MAIL</div>
+
+            <div class="service-type">
+                INTERNATIONAL<br>
+                TRACKED & SIGNED
+            </div>
+
+            <div class="dates">
+                Posted: 30 November 2025<br>
+                Expected Delivery: 5-6 December 2025
+            </div>
+
+            <div class="sender">
+                <strong>FROM:</strong><br>
+                36 St Andrew Square, Edinburgh, EH2 2YB, United Kingdom<br>
+                36 St Andret Square<br>
+                Edinburgh<br>
+                M1 1AA<br>
+                UNITED KINGDOM<br>
+                
+            </div>
+
+            <div class="recipient">
+                <strong>TO:</strong><br>
+                MICHAEL VOLKER<br>
+                Super 8 by Wyndham - Perryville
+Michael Joseph Volker JR
+1119 Vincent Dr
+Perryville, MO 63775<br>
+                Suite 1119<br>
+                Perryville, MO 90210<br>
+                UNITED STATES OF AMERICA
+            </div>
+
+            <div class="tracking-barcode">
+                <img src="https://barcode.tec-it.com/barcode.ashx?data=CD345678901GB&code=RoyalMail&dpi=96" alt="Royal Mail Barcode">
+                <div class="tracking-number-big">CD345678901GB</div>
+            </div>
+
+            <div class="customs-info">
+                <strong>Electronic Customs Data Submitted</strong><br>
+                Contents: BUSINESS WIRE CHEQUE - Electronics Accessory (HS Code: 8544.42)<br>
+                Quantity: 1 | Weight: 0.4 kg | Value: $35.00<br>
+                No commercial value | No prohibited items
+            </div>
+        </div>
+
+        <!-- Tracking Information Section - Mobile Optimized -->
+        <div class="tracking-section">
+            <div class="tracking-header">Royal Mail Tracking Information</div>
+
+            <div class="tracking-number-display">CD345678901GB</div>
+
+            <div class="status-current">Current Status: In Transit</div>
+
+            <div class="dates-info">
+                <strong>Shipped:</strong> 30 November 2025<br>
+                <strong>Expected Departure from UK:</strong> 4 December 2025<br>
+                <strong>Expected Delivery:</strong> 5-6 December 2025
+            </div>
+
+            <p>Your parcel is currently <strong>in transit</strong> and on its way to the United States.<br>
+            Full tracking available on royalmail.com</p>
+        </div>
+    </div>
+
+    <p class="note">
+        F<br
+    </p>
+</body>
+</html>
